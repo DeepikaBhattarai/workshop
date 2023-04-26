@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    padding:5px;
+
+}
+container{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+
+}
+.container>div:not(.content),
+.content>div{
+    border:1px solid#333;
+    margin:5px;
+
+}
+.logo{
+    padding:15px;
+}
+.navigation{
+    text-align: center;
+    padding:10px;
+}
+.headerbanner{
+    height:auto;
+    padding:0 10px;
+}
+.content{
+    display:flex;
+}
+.sidebar{
+    padding:5rem 0 01rem;
+    width:30%;
+
+}
+.bodyarea{
+    width:calc(100%-30%);
+    padding: top 5rem;
+    text-align: center;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+}
